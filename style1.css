@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+   padding: 0 10px;
+}
+.parent{
+     padding: 30x 0; 
+    background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.36.jpeg);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(216, 89, 89, 0.459);
+   height: 600px;
+   /* background-size: cover; */
+   /* overflow: hidden; */
+   /* @media (max-width:500px)and (max-with:700px) */
+
+}
+
+nav {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+   padding: 10px;
+    background-color: aliceblue;
+
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+   padding: 10px; 
+}
+
+
+span {
+font-size: 50px;
+    color: yellow;
+}
+
+h1{
+    font-size: 50px;
+    height: 100px;    
+    color: aliceblue;
+   
+}
+.child{
+    background-image: url();
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    display: inline-block;
+   background-color: rgb(92, 9, 170);
+   /* transform: translate(100px, 100px); */
+   /* transform: scale(1,1); */
+   /* transform: rotate(90deg); */
+   animation: malak 10s 1;
+   
+
+}
+@keyframes malak{
+    0%{
+        transform: translate(0, 0);
+        background-color: brown;
+    }
+    50%{
+        transform: translate(50px,50px);
+        background-color: aqua;
+    }
+    75%{
+        transform: translate(0,0);
+        background-color: black;
+    }
+    100%{
+       background-color: chocolate;
+        transform: translate(100px,0);
+    }
+}
+@media (max-width:500px)and (max-with:700px)
+   
+
+
+
+
+
+
+
+  
+.child:hover{
+     /* transition:transform , .1s; */
+    background-color: aqua;
+     /* transform: rotate(360deg);
+    transition: 1.5s  all; */
+}
+
+   
+
+h2{
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 50px;
+    text-align: center;
+    color: #000;
+}
+button{
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px ;
+   color: aliceblue;
+    background-color: blue;
+}
+
+/* .cards{
+   
+     height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:;
+   background-color: rgba(233, 100, 22, 0.945); */
+
+
+/* .child{
+ height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: inline-block;
+   
+   background-color: rgba(233, 100, 22, 0.945);
+   
+}
+ */
+ p{
+    color: aliceblue;
+ }
+ p:hover{
+    background-color: rgb(182, 223, 2);
+ }
+ .hero{
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+    
+   
+ }
+
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
